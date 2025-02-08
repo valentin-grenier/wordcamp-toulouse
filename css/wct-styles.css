@@ -33,8 +33,24 @@
   height: 6px;
 }
 
+@media screen and (max-width: 600px) {
+  .wp-block-gallery figure.wp-block-image:not(#individual-image) {
+    width: 100%;
+  }
+}
+
 .wp-block-heading {
   text-wrap: balance;
+}
+
+@media screen and (max-width: 768px) {
+  .wp-block-jetpack-subscriptions__form-elements {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .wp-block-jetpack-subscriptions__form-elements p#subscribe-email {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=wct-styles.css.map */
