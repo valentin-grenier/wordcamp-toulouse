@@ -1,3 +1,40 @@
+.wct-half-gradient-background {
+  background-image: none !important;
+}
+.wct-half-gradient-background:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-image: linear-gradient(90deg, #c944a0 0%, #711ed1 100%) !important;
+  z-index: -1;
+}
 
+.wct-colored-cards .wp-block-column:nth-child(1):after {
+  background: var(--wp--preset--color--custom-rouge);
+}
+.wct-colored-cards .wp-block-column:nth-child(2):after {
+  background: var(--wp--preset--color--custom-jaune);
+}
+.wct-colored-cards .wp-block-column:nth-child(3):after {
+  background: var(--wp--preset--color--custom-bleu);
+}
+.wct-colored-cards .wp-block-column .wp-block-group {
+  position: relative;
+}
+.wct-colored-cards .wp-block-column .wp-block-group:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+}
+
+.wp-block-heading {
+  text-wrap: balance;
+}
 
 /*# sourceMappingURL=wct-styles.css.map */
