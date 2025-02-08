@@ -51,6 +51,12 @@
   .wp-block-jetpack-subscriptions__form-elements p#subscribe-email {
     width: 100%;
   }
+  .wp-block-jetpack-subscriptions__form-elements p#subscribe-submit {
+    width: 100% !important;
+  }
+  .wp-block-jetpack-subscriptions__form-elements p#subscribe-submit button[type=submit] {
+    margin-left: 0 !important;
+  }
 }
 
 /*# sourceMappingURL=wct-styles.css.map */
