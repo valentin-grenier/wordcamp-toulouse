@@ -1,0 +1,12 @@
+{
+	"name": "wordcamp-toulouse",
+	"version": "1.0.0",
+	"author": "Valentin Grenier • Studio Val",
+	"description": "Custom stylesheet for WordCamp Toulouse website.",
+	"scripts": {
+		"sass-dev": "sass --watch ./scss/styles.scss:./css/wct-styles.css"
+	},
+	"devDependencies": {
+		"sass": "^1.68.0"
+	}
+}
