@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .wct-half-gradient-background {
   background-image: none !important;
 }
@@ -57,6 +58,29 @@
   .wp-block-jetpack-subscriptions__form-elements p#subscribe-submit button[type=submit] {
     margin-left: 0 !important;
   }
+}
+
+.wp-block-navigation-submenu {
+  border-radius: 8px;
+  border: none;
+  padding: 1rem 0;
+}
+.wp-block-navigation-submenu ul.wp-block-navigation__submenu-container {
+  overflow: hidden !important;
+  border: none !important;
+}
+.wp-block-navigation-submenu ul.wp-block-navigation__submenu-container .wp-block-navigation-item {
+  font-weight: 500;
+  color: var(--wp--preset--color--custom-violet);
+}
+.wp-block-navigation-submenu ul.wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.wp-block-navigation-submenu ul.wp-block-navigation__submenu-container .wp-block-navigation-item__content:before {
+  content: "•";
+  margin-right: 0.5rem;
 }
 
 /*# sourceMappingURL=wct-styles.css.map */

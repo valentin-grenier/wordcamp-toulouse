@@ -1,0 +1,26 @@
+.wp-block-navigation-submenu {
+	border-radius: 8px;
+	border: none;
+	padding: 1rem 0;
+
+	ul.wp-block-navigation__submenu-container {
+		overflow: hidden !important;
+		border: none !important;
+
+		.wp-block-navigation-item {
+			font-weight: 500;
+			color: var(--wp--preset--color--custom-violet);
+
+			&__content {
+				padding-left: 1rem;
+				padding-top: 0.5rem;
+				padding-bottom: 0.5rem;
+
+				&:before {
+					content: '•';
+					margin-right: 0.5rem;
+				}
+			}
+		}
+	}
+}
