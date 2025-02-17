@@ -1,0 +1,15 @@
+footer.wp-block-template-part {
+	margin-block-start: 0;
+
+	&:before {
+		content: '';
+		display: block;
+		height: 5px;
+		width: 100%;
+		background: var(--wp--preset--gradient--custom-color-1);
+	}
+
+	.wct-footer-bottom {
+		opacity: 0.5;
+	}
+}
