@@ -1,0 +1,22 @@
+.wp-block-jetpack-subscriptions {
+	@media screen and (max-width: 768px) {
+		&__form-elements {
+			flex-direction: column;
+			gap: 0.75rem;
+
+			p {
+				&#subscribe-email {
+					width: 100%;
+				}
+
+				&#subscribe-submit {
+					width: 100% !important;
+
+					button[type='submit'] {
+						margin-left: 0 !important;
+					}
+				}
+			}
+		}
+	}
+}
