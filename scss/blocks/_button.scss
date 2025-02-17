@@ -1,0 +1,33 @@
+.wp-block-button {
+	// Background shown when hovering
+	background: var(--wp--preset--color--custom-bleu);
+	border-radius: 0.5rem;
+
+	// Default style
+	&:not(.is-style-outline) {
+		.wp-block-button__link {
+			position: relative;
+			bottom: 0;
+			transition: 150ms;
+
+			&:hover {
+				bottom: 6px;
+				background: var(--wp--preset--color--custom-violet);
+			}
+		}
+	}
+
+	// Outline (secondary) style
+	&.is-style-outline {
+		.wp-block-button__link {
+			position: relative;
+			bottom: 0;
+			transition: 150ms;
+
+			&:hover {
+				bottom: 6px;
+				background: var(--wp--preset--color--base);
+			}
+		}
+	}
+}

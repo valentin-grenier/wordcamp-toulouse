@@ -72,6 +72,29 @@ h4 {
   margin-top: auto;
 }
 
+.wp-block-button {
+  background: var(--wp--preset--color--custom-bleu);
+  border-radius: 0.5rem;
+}
+.wp-block-button:not(.is-style-outline) .wp-block-button__link {
+  position: relative;
+  bottom: 0;
+  transition: 150ms;
+}
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
+  bottom: 6px;
+  background: var(--wp--preset--color--custom-violet);
+}
+.wp-block-button.is-style-outline .wp-block-button__link {
+  position: relative;
+  bottom: 0;
+  transition: 150ms;
+}
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+  bottom: 6px;
+  background: var(--wp--preset--color--base);
+}
+
 header.wp-block-template-part a {
   outline: none;
 }
