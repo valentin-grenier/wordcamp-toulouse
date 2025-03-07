@@ -95,6 +95,21 @@ h4 {
   background: var(--wp--preset--color--base);
 }
 
+form.wp-block-jetpack-contact-form input,
+form.wp-block-jetpack-contact-form textarea {
+  border-radius: 0.5rem;
+  color: var(--wp--preset--color--custom-violet);
+  border-color: var(--wp--preset--color--custom-violet-leger);
+}
+form.wp-block-jetpack-contact-form input:focus, form.wp-block-jetpack-contact-form input:active,
+form.wp-block-jetpack-contact-form textarea:focus,
+form.wp-block-jetpack-contact-form textarea:active {
+  outline-color: var(--wp--preset--color--custom-violet-leger);
+}
+form.wp-block-jetpack-contact-form .wp-block-button {
+  flex: 0 0 0 !important;
+}
+
 header.wp-block-template-part a {
   outline: none;
 }
@@ -171,6 +186,12 @@ footer.wp-block-template-part:before {
   height: 5px;
   width: 100%;
   background: var(--wp--preset--gradient--custom-color-1);
+}
+footer.wp-block-template-part a {
+  outline: none;
+}
+footer.wp-block-template-part a:focus, footer.wp-block-template-part a:active {
+  outline: none;
 }
 footer.wp-block-template-part .wct-footer-bottom {
   opacity: 0.5;

@@ -9,6 +9,15 @@ footer.wp-block-template-part {
 		background: var(--wp--preset--gradient--custom-color-1);
 	}
 
+	a {
+		outline: none;
+
+		&:focus,
+		&:active {
+			outline: none;
+		}
+	}
+
 	.wct-footer-bottom {
 		opacity: 0.5;
 	}

@@ -1,0 +1,17 @@
+form.wp-block-jetpack-contact-form {
+	input,
+	textarea {
+		border-radius: 0.5rem;
+		color: var(--wp--preset--color--custom-violet);
+		border-color: var(--wp--preset--color--custom-violet-leger);
+
+		&:focus,
+		&:active {
+			outline-color: var(--wp--preset--color--custom-violet-leger);
+		}
+	}
+
+	.wp-block-button {
+		flex: 0 0 0 !important;
+	}
+}
