@@ -20,5 +20,15 @@ footer.wp-block-template-part {
 
 	.wct-footer-bottom {
 		opacity: 0.5;
+
+		a {
+			text-decoration: none;
+
+			&:after {
+				content: url('https://toulouse.wordcamp.org/2025/files/2025/03/icon-arrow-up-right.png');
+				display: inline-block;
+				margin-left: 0.25rem;
+			}
+		}
 	}
 }

@@ -196,5 +196,13 @@ footer.wp-block-template-part a:focus, footer.wp-block-template-part a:active {
 footer.wp-block-template-part .wct-footer-bottom {
   opacity: 0.5;
 }
+footer.wp-block-template-part .wct-footer-bottom a {
+  text-decoration: none;
+}
+footer.wp-block-template-part .wct-footer-bottom a:after {
+  content: url("https://toulouse.wordcamp.org/2025/files/2025/03/icon-arrow-up-right.png");
+  display: inline-block;
+  margin-left: 0.25rem;
+}
 
 /*# sourceMappingURL=wct-styles.css.map */
