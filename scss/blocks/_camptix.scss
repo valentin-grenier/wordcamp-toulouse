@@ -1,0 +1,290 @@
+// Tickets table
+#tix {
+	padding-top: 0 !important;
+
+	&:has(.tix-ticket-form) {
+		margin-bottom: 4rem;
+	}
+
+	form {
+		table {
+			width: 100%;
+
+			thead {
+				th {
+					text-align: left;
+				}
+			}
+
+			tbody {
+				th {
+					text-align: left;
+				}
+
+				td {
+					&.tix-column-quantity {
+						select {
+							padding: 0.25rem 0.5rem;
+							width: 100%;
+							border: none;
+							border-radius: 0.25rem;
+							color: var(--wp--preset--color--custom-violet);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	input[type='submit'] {
+		position: relative;
+		background: var(--wp--preset--color--custom-violet);
+		border-radius: 0.5rem !important;
+		border: none;
+		padding: 10px 20px !important;
+		color: var(--wp--preset--color--base);
+		font-family: inherit;
+		font-size: var(--wp--preset--font-size--medium);
+		line-height: inherit !important;
+		text-transform: none !important;
+		text-wrap: wrap;
+		letter-spacing: 0 !important;
+
+		transition: 150ms;
+
+		&:hover {
+			transform: translateX(0.25rem);
+		}
+	}
+
+	p {
+		&:last-child {
+			margin-bottom: 0 !important;
+		}
+	}
+
+	// Order summary
+	.tix-order-summary {
+		background: var(--wp--preset--color--custom-violet-tres-leger);
+		padding: 2rem;
+		border-radius: 0.5rem;
+	}
+
+	// Attendee form
+	table.tix-attendee-form {
+		background: var(--wp--preset--color--custom-violet-tres-leger);
+		padding: 2rem;
+		border-radius: 0.5rem;
+		margin-bottom: 2rem;
+
+		tr {
+			td {
+				padding: 0.5rem 0;
+
+				&.tix {
+					&-left {
+						width: 60%;
+						padding-right: 2rem;
+					}
+
+					&-right {
+						width: 40%;
+					}
+				}
+
+				input {
+					font-family: inherit;
+					padding: 0.5rem 0.5rem;
+					border: none;
+					border-radius: 0.25rem;
+					color: var(--wp--preset--color--custom-violet);
+				}
+			}
+
+			&.tix-row-health-advisory {
+				font-style: italic;
+			}
+		}
+	}
+
+	// Submit section
+	.tix-submit {
+		float: none;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	// Payment methods
+	.tix-payment-method {
+		display: flex;
+
+		.tix-payment-tab {
+			float: none;
+			color: var(--wp--preset--color--custom-violet);
+			font-family: inherit;
+			width: 50%;
+			border-bottom-color: var(--wp--preset--color--custom-violet);
+			cursor: pointer;
+		}
+
+		&-container {
+			fieldset {
+				border-radius: 0.5rem !important;
+				border-color: var(--wp--preset--color--custom-violet-leger);
+
+				label {
+					color: var(--wp--preset--color--custom-violet) !important;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+	// Success page
+	.tix-ticket-form {
+		background: var(--wp--preset--color--custom-violet-tres-leger);
+		padding: 2rem;
+		border-radius: 0.5rem;
+		width: 100%;
+
+		a {
+			color: var(--wp--preset--color--custom-violet);
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		input[type='submit'] {
+			float: none !important;
+		}
+
+		table:not(.tix-tickets-list) {
+			tbody {
+				tr {
+					display: block;
+
+					td {
+						&.tix-left,
+						&.tix-right {
+							display: block;
+							width: 100% !important;
+						}
+					}
+				}
+			}
+		}
+
+		&:has(.tix-tickets-list) {
+			overflow-x: auto;
+
+			th,
+			td {
+				padding-left: 0.5rem;
+				padding-right: 0.5rem;
+			}
+		}
+
+		table.tix-order-summary {
+			display: flex;
+			flex-direction: column;
+			overflow-x: auto;
+			padding: 1.25rem;
+
+			.tix-column-description {
+				display: none;
+			}
+
+			thead th,
+			tbody td {
+				padding: 0 5px;
+				text-wrap: nowrap;
+				min-width: 75px;
+
+				&:nth-child(2) {
+					padding-left: 0;
+				}
+			}
+
+			tbody {
+				.tix-row-total {
+					position: relative;
+					display: flex;
+					justify-content: start;
+					margin-top: 1rem;
+
+					&:before {
+						content: 'Total';
+						font-weight: bold;
+						position: relative;
+						margin-top: auto;
+					}
+
+					td {
+						&:nth-child(1) {
+							display: none;
+						}
+
+						&:nth-child(2) {
+							display: flex;
+							justify-content: end;
+						}
+					}
+				}
+			}
+		}
+
+		.tix-submit {
+			.tix-checkout-button {
+				display: inline;
+			}
+		}
+
+		table.tix-ticket-form {
+			padding: 1.5rem;
+
+			thead {
+				tr {
+					th {
+						&:nth-child(2) {
+							display: none;
+						}
+					}
+				}
+			}
+
+			tbody {
+				tr {
+					display: flex;
+					flex-direction: column;
+
+					td {
+						&.tix-left,
+						&.tix-right {
+							display: block;
+							width: 100% !important;
+						}
+
+						&:nth-child(2) {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.tix-payment-method {
+			flex-direction: column;
+
+			.tix-payment-tab {
+				width: 100%;
+				opacity: 0.5;
+				transition: 150ms;
+
+				&.tix-tab-selected {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
