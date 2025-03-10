@@ -94,14 +94,17 @@ a:focus, a:active {
 }
 
 form.wp-block-jetpack-contact-form input,
-form.wp-block-jetpack-contact-form textarea {
-  border-radius: 0.5rem;
-  color: var(--wp--preset--color--custom-violet);
-  border-color: var(--wp--preset--color--custom-violet-leger);
+form.wp-block-jetpack-contact-form textarea,
+form.wp-block-jetpack-contact-form select {
+  border-radius: 0.5rem !important;
+  color: var(--wp--preset--color--custom-violet) !important;
+  border-color: var(--wp--preset--color--custom-violet-leger) !important;
 }
 form.wp-block-jetpack-contact-form input:focus, form.wp-block-jetpack-contact-form input:active,
 form.wp-block-jetpack-contact-form textarea:focus,
-form.wp-block-jetpack-contact-form textarea:active {
+form.wp-block-jetpack-contact-form textarea:active,
+form.wp-block-jetpack-contact-form select:focus,
+form.wp-block-jetpack-contact-form select:active {
   outline-color: var(--wp--preset--color--custom-violet-leger);
 }
 form.wp-block-jetpack-contact-form .wp-block-button {

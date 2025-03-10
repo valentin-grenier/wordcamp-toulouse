@@ -1,9 +1,10 @@
 form.wp-block-jetpack-contact-form {
 	input,
-	textarea {
-		border-radius: 0.5rem;
-		color: var(--wp--preset--color--custom-violet);
-		border-color: var(--wp--preset--color--custom-violet-leger);
+	textarea,
+	select {
+		border-radius: 0.5rem !important;
+		color: var(--wp--preset--color--custom-violet) !important;
+		border-color: var(--wp--preset--color--custom-violet-leger) !important;
 
 		&:focus,
 		&:active {
