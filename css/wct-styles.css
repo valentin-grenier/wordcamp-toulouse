@@ -342,6 +342,10 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   }
 }
 
+.wp-block-image figcaption {
+  font-size: 0.75rem;
+}
+
 header.wp-block-template-part a {
   outline: none;
 }
