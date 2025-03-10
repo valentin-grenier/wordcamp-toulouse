@@ -20,14 +20,12 @@
 }
 
 .wp-block-heading {
-  text-wrap: balance;
+  text-wrap: pretty;
+  line-height: normal;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  line-height: normal;
+a:focus, a:active {
+  outline: none;
 }
 
 @media screen and (max-width: 768px) {
