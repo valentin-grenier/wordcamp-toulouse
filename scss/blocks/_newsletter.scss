@@ -1,4 +1,10 @@
 .wp-block-jetpack-subscriptions {
+	#subscribe-email {
+		input {
+			color: var(--wp--preset--color--custom-violet);
+		}
+	}
+
 	#subscribe-submit {
 		position: relative;
 

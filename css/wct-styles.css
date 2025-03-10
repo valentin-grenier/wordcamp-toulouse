@@ -309,6 +309,9 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   }
 }
 
+.wp-block-jetpack-subscriptions #subscribe-email input {
+  color: var(--wp--preset--color--custom-violet);
+}
 .wp-block-jetpack-subscriptions #subscribe-submit {
   position: relative;
 }
