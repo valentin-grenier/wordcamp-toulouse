@@ -163,7 +163,7 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   background: var(--wp--preset--color--custom-violet-tres-leger);
   padding: 2rem;
   border-radius: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 #tix table.tix-attendee-form tr td {
   padding: 0.5rem 0;
@@ -175,7 +175,8 @@ form.wp-block-jetpack-contact-form .wp-block-button {
 #tix table.tix-attendee-form tr td.tix-right {
   width: 40%;
 }
-#tix table.tix-attendee-form tr td input {
+#tix table.tix-attendee-form tr td input,
+#tix table.tix-attendee-form tr td textarea {
   font-family: inherit;
   padding: 0.5rem 0.5rem;
   border: none;
@@ -217,6 +218,34 @@ form.wp-block-jetpack-contact-form .wp-block-button {
 }
 #tix .tix-ticket-form a {
   color: var(--wp--preset--color--custom-violet);
+}
+#tix .camptix-invoice-toggle-wrapper {
+  background: var(--wp--preset--color--custom-violet-tres-leger);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  width: -webkit-fill-available;
+}
+#tix .camptix-invoice-toggle-wrapper tr td {
+  padding: 0.5rem 0;
+}
+#tix .camptix-invoice-toggle-wrapper tr td.tix-left {
+  width: 60%;
+  padding-right: 2rem;
+}
+#tix .camptix-invoice-toggle-wrapper tr td.tix-right {
+  width: 40%;
+}
+#tix .camptix-invoice-toggle-wrapper tr td input,
+#tix .camptix-invoice-toggle-wrapper tr td textarea {
+  font-family: inherit;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: var(--wp--preset--color--custom-violet);
+}
+#tix .camptix-invoice-toggle-wrapper tr.tix-row-health-advisory {
+  font-style: italic;
 }
 @media screen and (max-width: 600px) {
   #tix input[type=submit] {

@@ -75,7 +75,7 @@
 		background: var(--wp--preset--color--custom-violet-tres-leger);
 		padding: 2rem;
 		border-radius: 0.5rem;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 
 		tr {
 			td {
@@ -92,7 +92,8 @@
 					}
 				}
 
-				input {
+				input,
+				textarea {
 					font-family: inherit;
 					padding: 0.5rem 0.5rem;
 					border: none;
@@ -149,6 +150,45 @@
 
 		a {
 			color: var(--wp--preset--color--custom-violet);
+		}
+	}
+
+	// Invoice details
+	.camptix-invoice-toggle-wrapper {
+		background: var(--wp--preset--color--custom-violet-tres-leger);
+		padding: 2rem;
+		border-radius: 0.5rem;
+		margin-bottom: 2rem;
+		width: -webkit-fill-available;
+
+		tr {
+			td {
+				padding: 0.5rem 0;
+
+				&.tix {
+					&-left {
+						width: 60%;
+						padding-right: 2rem;
+					}
+
+					&-right {
+						width: 40%;
+					}
+				}
+
+				input,
+				textarea {
+					font-family: inherit;
+					padding: 0.5rem 0.5rem;
+					border: none;
+					border-radius: 0.25rem;
+					color: var(--wp--preset--color--custom-violet);
+				}
+			}
+
+			&.tix-row-health-advisory {
+				font-style: italic;
+			}
 		}
 	}
 
