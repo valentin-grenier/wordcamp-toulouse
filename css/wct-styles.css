@@ -527,4 +527,10 @@ footer.wp-block-template-part .wct-footer-bottom a:after {
   margin-left: 0.25rem;
 }
 
+@media screen and (max-width: 480px) {
+  #wct-newsletter .wp-block-cover {
+    padding: 2rem !important;
+  }
+}
+
 /*# sourceMappingURL=wct-styles.css.map */
