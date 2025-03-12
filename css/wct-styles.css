@@ -405,6 +405,15 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   align-items: center;
   justify-content: center;
 }
+.wct-card-organizer h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .wp-block-group .wp-block-list {
+    padding-left: 1rem;
+  }
+}
 
 header.wp-block-template-part a {
   outline: none;
