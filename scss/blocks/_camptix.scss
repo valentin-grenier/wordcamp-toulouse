@@ -22,14 +22,11 @@
 				}
 
 				td {
-					&.tix-column-quantity {
-						select {
-							padding: 0.25rem 0.5rem;
-							width: 100%;
-							border: none;
-							border-radius: 0.25rem;
-							color: var(--wp--preset--color--custom-violet);
-						}
+					select {
+						padding: 0.25rem 0.5rem;
+						border: none;
+						border-radius: 0.25rem;
+						color: var(--wp--preset--color--custom-violet);
 					}
 				}
 			}

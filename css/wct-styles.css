@@ -126,9 +126,8 @@ form.wp-block-jetpack-contact-form .wp-block-button {
 #tix form table tbody th {
   text-align: left;
 }
-#tix form table tbody td.tix-column-quantity select {
+#tix form table tbody td select {
   padding: 0.25rem 0.5rem;
-  width: 100%;
   border: none;
   border-radius: 0.25rem;
   color: var(--wp--preset--color--custom-violet);
