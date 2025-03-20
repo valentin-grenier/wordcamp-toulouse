@@ -405,24 +405,16 @@
 
 	@media screen and (max-width: 1024px) {
 		ul {
-			&.tix-columns-4 {
-				grid-template-columns: repeat(3, 1fr);
-			}
-		}
-	}
-
-	@media screen and (max-width: 768px) {
-		ul {
-			&.tix-columns-4 {
-				grid-template-columns: repeat(2, 1fr);
+			&.tix-columns-5 {
+				grid-template-columns: repeat(3, 1fr) !important;
 			}
 		}
 	}
 
 	@media screen and (max-width: 600px) {
 		ul {
-			&.tix-columns-4 {
-				grid-template-columns: repeat(1, 1fr);
+			&.tix-columns-5 {
+				grid-template-columns: repeat(1, 1fr) !important;
 			}
 		}
 	}
