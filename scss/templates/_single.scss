@@ -6,4 +6,13 @@ body.single {
 	h3.wp-block-heading {
 		margin: 2.5rem 0 0.75rem;
 	}
+
+	/* Override styles when inside a .wp-block-group */
+	.wp-block-group h2.wp-block-heading {
+		margin: initial; /* Reset margin */
+	}
+
+	.wp-block-group h3.wp-block-heading {
+		margin: initial;
+	}
 }
