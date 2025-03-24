@@ -1,15 +1,14 @@
 body.single {
 	.entry-content > {
 		h2.wp-block-heading {
-			margin: 4rem 0 1rem;
+			margin: 4rem auto 1rem !important;
 		}
 
 		h3.wp-block-heading {
-			margin: 2.5rem 0 0.75rem;
+			margin: 2.5rem auto 0.75rem !important;
 		}
 	}
 
-	/* Override styles when inside a .wp-block-group */
 	.wp-block-group h2.wp-block-heading {
 		margin: initial; /* Reset margin */
 	}
