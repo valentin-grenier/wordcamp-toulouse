@@ -458,14 +458,13 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   }
 }
 
-.wp-block-image figcaption {
-  font-size: 0.75rem;
-}
-
-.card-logo {
-  background: var(--wp--preset-color--base);
+.wp-block-image.card-logo {
+  background: var(--wp--preset--color--base);
   padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40);
   border-radius: 8px;
+}
+.wp-block-image figcaption {
+  font-size: 0.75rem;
 }
 
 .wp-block-post-excerpt__more-link {
