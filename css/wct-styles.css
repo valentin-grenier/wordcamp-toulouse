@@ -9,7 +9,7 @@
   left: 0;
   width: 100%;
   height: 50%;
-  background-image: linear-gradient(90deg, rgb(201, 68, 160) 0%, rgb(113, 30, 209) 100%) !important;
+  background-image: linear-gradient(90deg, #c944a0 0%, #711ed1 100%) !important;
   z-index: -1;
 }
 
@@ -26,7 +26,8 @@ body.single .entry-content > h3.wp-block-heading {
   margin: 2.5rem auto 0.75rem !important;
 }
 body.single .wp-block-group h2.wp-block-heading {
-  margin: initial; /* Reset margin */
+  margin: initial;
+  /* Reset margin */
 }
 body.single .wp-block-group h3.wp-block-heading {
   margin: initial;
@@ -274,7 +275,7 @@ form.wp-block-jetpack-contact-form .wp-block-button {
     overflow-x: auto;
   }
   #tix:has(.tix-tickets-list) th,
-  #tix:has(.tix-tickets-list) td {
+#tix:has(.tix-tickets-list) td {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
@@ -288,13 +289,13 @@ form.wp-block-jetpack-contact-form .wp-block-button {
     display: none;
   }
   #tix table.tix-order-summary thead th,
-  #tix table.tix-order-summary tbody td {
+#tix table.tix-order-summary tbody td {
     padding: 0 5px;
     text-wrap: nowrap;
     min-width: 75px;
   }
   #tix table.tix-order-summary thead th:nth-child(2),
-  #tix table.tix-order-summary tbody td:nth-child(2) {
+#tix table.tix-order-summary tbody td:nth-child(2) {
     padding-left: 0;
   }
   #tix table.tix-order-summary tbody .tix-row-total {
@@ -459,6 +460,12 @@ form.wp-block-jetpack-contact-form .wp-block-button {
 
 .wp-block-image figcaption {
   font-size: 0.75rem;
+}
+
+.card-logo {
+  background: var(--wp--preset-color--base);
+  padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40);
+  border-radius: 8px;
 }
 
 .wp-block-post-excerpt__more-link {
