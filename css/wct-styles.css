@@ -106,6 +106,10 @@ a:focus, a:active {
   background: var(--wp--preset--color--base);
 }
 
+.wp-block-details.has-background {
+  border-radius: 0.75rem;
+}
+
 form.wp-block-jetpack-contact-form input,
 form.wp-block-jetpack-contact-form textarea,
 form.wp-block-jetpack-contact-form select {
