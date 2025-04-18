@@ -3,3 +3,9 @@
 @use 'blocks';
 @use 'template-parts';
 @use 'patterns';
+
+// == Base styles ==
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 4rem;
+}
