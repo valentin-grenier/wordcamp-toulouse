@@ -66,4 +66,22 @@
 		border-top: solid 1px var(--wp--preset--color--custom-violet) !important;
 		font-size: 1.15rem;
 	}
+
+	@media screen and (max-width: 549px) {
+		&__day {
+			border: solid 1px var(--wp--preset--color--custom-violet) !important;
+		}
+
+		&__time-slot-header {
+			margin-top: 0;
+			background: var(--wp--preset--color--custom-violet-leger) !important;
+			border-top: none !important;
+			border-bottom: solid 1px var(--wp--preset--color--custom-violet) !important;
+		}
+
+		&__session {
+			border: none !important;
+			border-bottom: solid 1px var(--wp--preset--color--custom-violet) !important;
+		}
+	}
 }
