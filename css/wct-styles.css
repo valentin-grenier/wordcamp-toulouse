@@ -514,6 +514,7 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   background: var(--wp--preset--color--custom-violet-leger) !important;
   color: var(--wp--preset--color--violet) !important;
   padding: 1rem !important;
+  margin: 0 !important;
   font-size: 1.15rem;
   font-weight: 700;
   font-family: var(--wp--preset--font-family--bricolage-grotesque);
@@ -535,6 +536,7 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   display: block;
   text-align: center;
   font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;
+  font-size: 1.375rem;
 }
 .wordcamp-schedule__session p {
   color: var(--wp--preset--color--custom-violet) !important;
