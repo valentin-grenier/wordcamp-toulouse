@@ -501,6 +501,61 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   text-decoration: none;
 }
 
+.wordcamp-schedule__day {
+  border-radius: 1rem;
+  border-top: solid 1px var(--wp--preset--color--custom-violet) !important;
+  border-bottom: solid 1px var(--wp--preset--color--custom-violet) !important;
+  border-left: solid 1px var(--wp--preset--color--custom-violet) !important;
+  overflow: hidden;
+  grid-gap: 0 !important;
+}
+.wordcamp-schedule__column-header {
+  border-right: solid 1px var(--wp--preset--color--custom-violet) !important;
+  background: var(--wp--preset--color--custom-violet-leger) !important;
+  color: var(--wp--preset--color--violet) !important;
+  padding: 1rem !important;
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-family: var(--wp--preset--font-family--bricolage-grotesque);
+}
+.wordcamp-schedule__session {
+  text-align: center !important;
+  padding: 4rem 2rem;
+  border: solid 1px var(--wp--preset--color--custom-violet) !important;
+}
+.wordcamp-schedule__session .dashicons {
+  color: var(--wp--preset--color--custom-violet-tres-leger);
+}
+.wordcamp-schedule__session-title {
+  font-size: 1.25rem;
+  justify-content: center !important;
+}
+.wordcamp-schedule__session-title a {
+  color: var(--wp--preset--color--violet) !important;
+  display: block;
+  text-align: center;
+  font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;
+}
+.wordcamp-schedule__session p {
+  color: var(--wp--preset--color--custom-violet) !important;
+}
+.wordcamp-schedule__session.wcb-favourite-session {
+  background: var(--wp--preset--color--custom-violet-tres-leger) !important;
+  color: var(--wp--preset--color--white) !important;
+}
+.wordcamp-schedule__session.wcb-favourite-session .dashicons {
+  color: var(--wp--preset--color--violet) !important;
+}
+.wordcamp-schedule__session .wcb-session-favourite-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 99;
+}
+.wordcamp-schedule__time-slot-header {
+  border-top: solid 1px var(--wp--preset--color--custom-violet) !important;
+}
+
 header.wp-block-template-part a {
   outline: none;
 }
