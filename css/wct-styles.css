@@ -570,6 +570,8 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   }
   .wordcamp-schedule__session {
     border: none !important;
+  }
+  .wordcamp-schedule__session:not(:last-child) {
     border-bottom: solid 1px var(--wp--preset--color--custom-violet) !important;
   }
 }

@@ -81,7 +81,10 @@
 
 		&__session {
 			border: none !important;
-			border-bottom: solid 1px var(--wp--preset--color--custom-violet) !important;
+
+			&:not(:last-child) {
+				border-bottom: solid 1px var(--wp--preset--color--custom-violet) !important;
+			}
 		}
 	}
 }
