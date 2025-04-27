@@ -1,0 +1,11 @@
+.wct-session {
+	&__speaker {
+	}
+
+	&__date,
+	&__time {
+		time {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+	}
+}

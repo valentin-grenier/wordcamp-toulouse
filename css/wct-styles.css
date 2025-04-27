@@ -32,6 +32,10 @@ body.single .wp-block-group h3.wp-block-heading {
   margin: initial;
 }
 
+.wct-session__date time, .wct-session__time time {
+  font-size: var(--wp--preset--font-size--medium) !important;
+}
+
 .wp-block-heading {
   text-wrap: balance;
   line-height: normal;
