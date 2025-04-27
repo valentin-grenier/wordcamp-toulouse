@@ -1,5 +1,6 @@
 .wct-session {
 	&__speaker {
+		font-family: var(--wp--preset--font-family--heading);
 	}
 
 	&__date,
@@ -29,5 +30,8 @@
 
 	&__content {
 		padding: 0;
+	}
+
+	@media screen and (max-width: 781px) {
 	}
 }

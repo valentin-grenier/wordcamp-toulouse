@@ -32,6 +32,9 @@ body.single .wp-block-group h3.wp-block-heading {
   margin: initial;
 }
 
+.wct-session__speaker {
+  font-family: var(--wp--preset--font-family--heading);
+}
 .wct-session__date time, .wct-session__time time {
   font-size: var(--wp--preset--font-size--medium) !important;
 }
@@ -54,7 +57,6 @@ body.single .wp-block-group h3.wp-block-heading {
 .wct-session__content {
   padding: 0;
 }
-
 .wp-block-heading {
   text-wrap: balance;
   line-height: normal;
