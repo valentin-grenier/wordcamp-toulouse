@@ -51,6 +51,9 @@ body.single .wp-block-group h3.wp-block-heading {
   background: var(--wp--preset--color--custom-violet-tres-leger);
   border: none;
 }
+.wct-session__content {
+  padding: 0;
+}
 
 .wp-block-heading {
   text-wrap: balance;
