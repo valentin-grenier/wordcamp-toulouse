@@ -35,6 +35,22 @@ body.single .wp-block-group h3.wp-block-heading {
 .wct-session__date time, .wct-session__time time {
   font-size: var(--wp--preset--font-size--medium) !important;
 }
+.wct-session__tracks {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.wct-session__tracks a {
+  display: block;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  font-size: var(--wp--preset--font-size--small);
+  font-weight: 700;
+  line-height: normal;
+  color: var(--wp--preset--color--custom-violet);
+  background: var(--wp--preset--color--custom-violet-tres-leger);
+  border: none;
+}
 
 .wp-block-heading {
   text-wrap: balance;

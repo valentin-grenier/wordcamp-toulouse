@@ -8,4 +8,22 @@
 			font-size: var(--wp--preset--font-size--medium) !important;
 		}
 	}
+
+	&__tracks {
+		display: flex;
+		gap: 0.5rem;
+		align-items: center;
+
+		a {
+			display: block;
+			border-radius: 8px;
+			padding: 0.5rem 0.75rem;
+			font-size: var(--wp--preset--font-size--small);
+			font-weight: 700;
+			line-height: normal;
+			color: var(--wp--preset--color--custom-violet);
+			background: var(--wp--preset--color--custom-violet-tres-leger);
+			border: none;
+		}
+	}
 }
