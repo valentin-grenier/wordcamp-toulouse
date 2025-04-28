@@ -62,6 +62,11 @@ body.single .wp-block-group h3.wp-block-heading {
   border-radius: 1rem;
 }
 
+.wct-speaker .wporg-site-breadcrumbs__wrapper {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 .wp-block-heading {
   text-wrap: balance;
   line-height: normal;
@@ -611,6 +616,24 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   overflow: hidden;
 }
 
+.wporg-site-breadcrumbs__wrapper {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.wporg-site-breadcrumbs__wrapper:after {
+  content: none !important;
+}
+.wporg-site-breadcrumbs__wrapper span {
+  font-size: 1rem;
+}
+.wporg-site-breadcrumbs__wrapper span:after {
+  padding-left: 0.5rem;
+  opacity: 0.75;
+}
+.wporg-site-breadcrumbs__wrapper span:not(.is-current-page) {
+  opacity: 0.75;
+}
 header.wp-block-template-part a {
   outline: none;
 }
