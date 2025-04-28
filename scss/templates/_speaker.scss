@@ -1,0 +1,44 @@
+.wct-speaker {
+	.wporg-site-breadcrumbs__wrapper {
+		width: fit-content;
+		margin: 0 auto;
+	}
+
+	&__image {
+		width: 128px !important;
+		height: 128px !important;
+		object-fit: cover;
+		border-radius: 12px;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+
+	&__sessions {
+		background: var(--wp--preset--color--custom-violet-tres-leger);
+		padding: 0.5rem 1.5rem;
+		box-sizing: border-box;
+		border-radius: 12px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		li {
+			p {
+				text-align: center;
+
+				a {
+					font-size: 1.25rem;
+					font-family: var(--wp--preset--font-family--bricolage-grotesque);
+					font-weight: 700;
+					color: var(--wp--preset--color--custom-violet);
+				}
+			}
+		}
+	}
+}

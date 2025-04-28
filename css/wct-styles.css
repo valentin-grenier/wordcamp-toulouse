@@ -66,6 +66,37 @@ body.single .wp-block-group h3.wp-block-heading {
   width: fit-content;
   margin: 0 auto;
 }
+.wct-speaker__image {
+  width: 128px !important;
+  height: 128px !important;
+  object-fit: cover;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.wct-speaker__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.wct-speaker__sessions {
+  background: var(--wp--preset--color--custom-violet-tres-leger);
+  padding: 0.5rem 1.5rem;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wct-speaker__sessions li p {
+  text-align: center;
+}
+.wct-speaker__sessions li p a {
+  font-size: 1.25rem;
+  font-family: var(--wp--preset--font-family--bricolage-grotesque);
+  font-weight: 700;
+  color: var(--wp--preset--color--custom-violet);
+}
 
 .wp-block-heading {
   text-wrap: balance;
