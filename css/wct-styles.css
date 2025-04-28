@@ -57,6 +57,11 @@ body.single .wp-block-group h3.wp-block-heading {
 .wct-session__content {
   padding: 0;
 }
+.wct-sponsor__image {
+  border: solid 1px var(--wp--preset--color--custom-violet-leger);
+  border-radius: 1rem;
+}
+
 .wp-block-heading {
   text-wrap: balance;
   line-height: normal;
@@ -488,8 +493,8 @@ form.wp-block-jetpack-contact-form .wp-block-button {
 
 .wp-block-image.card-logo {
   background: var(--wp--preset--color--base);
-  padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40);
-  border-radius: 8px;
+  padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--60);
+  border-radius: 16px;
 }
 .wp-block-image figcaption {
   font-size: 0.75rem;
@@ -599,6 +604,11 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   .wordcamp-schedule__session:not(:last-child) {
     border-bottom: solid 1px var(--wp--preset--color--custom-violet) !important;
   }
+}
+
+.wp-block-embed__wrapper {
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 header.wp-block-template-part a {
