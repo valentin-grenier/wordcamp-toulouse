@@ -57,7 +57,13 @@ body.single .wp-block-group h3.wp-block-heading {
 .wct-session__content {
   padding: 0;
 }
-.wct-session__speaker a {
+.wct-session__speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wct-session__speaker .wp-block-wordcamp-session-speakers__name a {
   color: var(--wp--preset--color--custom-violet);
   text-decoration: none;
   font-weight: 700;

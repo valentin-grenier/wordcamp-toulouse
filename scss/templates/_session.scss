@@ -33,11 +33,18 @@
 	}
 
 	&__speaker {
-		a {
-			color: var(--wp--preset--color--custom-violet);
-			text-decoration: none;
-			font-weight: 700;
-			font-size: 18px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		.wp-block-wordcamp-session-speakers__name {
+			a {
+				color: var(--wp--preset--color--custom-violet);
+				text-decoration: none;
+				font-weight: 700;
+				font-size: 18px;
+			}
 		}
 
 		&-avatar {
