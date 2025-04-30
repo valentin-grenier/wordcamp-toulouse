@@ -32,6 +32,21 @@
 		padding: 0;
 	}
 
+	&__speaker {
+		a {
+			color: var(--wp--preset--color--custom-violet);
+			text-decoration: none;
+			font-weight: 700;
+			font-size: 18px;
+		}
+
+		&-avatar {
+			border-radius: 1rem;
+			overflow: hidden;
+			margin-bottom: 1rem !important;
+		}
+	}
+
 	@media screen and (max-width: 781px) {
 	}
 }

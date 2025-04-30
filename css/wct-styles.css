@@ -57,6 +57,17 @@ body.single .wp-block-group h3.wp-block-heading {
 .wct-session__content {
   padding: 0;
 }
+.wct-session__speaker a {
+  color: var(--wp--preset--color--custom-violet);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+.wct-session__speaker-avatar {
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1rem !important;
+}
 .wct-sponsor__image {
   border: solid 1px var(--wp--preset--color--custom-violet-leger);
   border-radius: 1rem;
