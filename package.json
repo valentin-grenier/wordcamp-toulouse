@@ -4,7 +4,7 @@
 	"author": "Valentin Grenier • Studio Val",
 	"description": "Custom stylesheet for WordCamp Toulouse website.",
 	"scripts": {
-		"dev": "sass --watch ./scss/wct-styles.scss:./css/wct-styles.css"
+		"dev": "sass --no-source-map --watch ./scss/wct-styles.scss:./css/wct-styles.css"
 	},
 	"devDependencies": {
 		"sass": "^1.68.0"
