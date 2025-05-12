@@ -3,4 +3,11 @@
 		border: solid 1px var(--wp--preset--color--custom-violet-leger);
 		border-radius: 1rem;
 	}
+
+	@media screen and (max-width: 550px) {
+		&__image {
+			width: unset !important;
+			aspect-ratio: unset !important;
+		}
+	}
 }
