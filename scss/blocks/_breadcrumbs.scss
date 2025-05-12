@@ -1,18 +1,19 @@
 .wporg-site-breadcrumbs {
 	&__wrapper {
-		display: flex;
-		gap: 0.5rem;
-		align-items: center;
+		display: initial;
+		white-space: initial !important;
 
 		&:after {
 			content: none !important;
 		}
 
 		span {
+			display: initial;
 			font-size: 1rem;
 
 			&:after {
 				padding-left: 0.5rem;
+				padding-right: 0.5rem;
 				opacity: 0.75;
 			}
 
@@ -24,4 +25,8 @@
 			}
 		}
 	}
+}
+
+.wp-block-wporg-site-breadcrumbs {
+	mask-image: none !important;
 }

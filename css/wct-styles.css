@@ -670,23 +670,28 @@ form.wp-block-jetpack-contact-form .wp-block-button {
 }
 
 .wporg-site-breadcrumbs__wrapper {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
+  display: initial;
+  white-space: initial !important;
 }
 .wporg-site-breadcrumbs__wrapper:after {
   content: none !important;
 }
 .wporg-site-breadcrumbs__wrapper span {
+  display: initial;
   font-size: 1rem;
 }
 .wporg-site-breadcrumbs__wrapper span:after {
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
   opacity: 0.75;
 }
 .wporg-site-breadcrumbs__wrapper span:not(.is-current-page) {
   opacity: 0.75;
 }
+.wp-block-wporg-site-breadcrumbs {
+  mask-image: none !important;
+}
+
 header.wp-block-template-part a {
   outline: none;
 }
