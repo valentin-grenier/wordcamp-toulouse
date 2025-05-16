@@ -8,4 +8,8 @@
 html {
 	scroll-behavior: smooth;
 	scroll-padding-top: 4rem;
+
+	@media screen and (max-width: 550px) {
+		scroll-padding-top: 3rem;
+	}
 }
