@@ -632,6 +632,10 @@ form.wp-block-jetpack-contact-form .wp-block-button {
   font-size: 1rem;
   font-family: var(--wp--preset--font-family--bricolage-grotesque);
 }
+.wordcamp-schedule__session-tracks dd {
+  color: var(--wp--preset--color--custom-violet) !important;
+  font-family: var(--wp--preset--font-family--bricolage-grotesque);
+}
 .wordcamp-schedule__session p {
   color: var(--wp--preset--color--custom-violet) !important;
 }
